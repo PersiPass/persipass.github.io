@@ -1,0 +1,116 @@
+html, body {
+  background: #424242;
+}
+
+* {
+  color: #fafafa
+}
+
+.bg-gray {
+  background: #424242;
+}
+
+.navbar-brand {
+  font-size: 42px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 24px;
+  }
+
+  .logo {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.carousel-item {
+  height: 100%;
+  min-height: 300px;
+  background: no-repeat center center;
+  background-size: contain;
+}
+
+.carousel-inner {
+  height: 640px;
+}
+
+.carousel-indicators {
+  bottom: -30px;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.feature__title {
+  margin: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.feature .material-icons {
+  color: #ff5e52;
+  font-size: 48px;
+}
+
+.feature__description {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.07);
+  }
+  50% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.07);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heartbeat {
+  animation-name: heartbeat;
+  animation-duration: 1000ms;
+  transform-origin: 70% 70%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
