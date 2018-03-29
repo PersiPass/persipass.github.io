@@ -78,6 +78,11 @@ html, body {
   justify-content: center;
   align-items: center;
   margin: 10px 0;
+  min-width: 100px;
+}
+
+[disabled] {
+  opacity: 0.3;
 }
 
 @keyframes heartbeat {
